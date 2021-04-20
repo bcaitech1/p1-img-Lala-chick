@@ -1,0 +1,19 @@
+{"model": "eca_nfnet_l0",
+    "base": "nfnet",
+    "img_size": 384,
+    "num_workers": 4,
+    "batch_size": 32,
+    "distortion": 0,
+    "epochs": 30,
+    "learning_rate": 1e-4,
+    "weight_decay": 1e-6,
+    "min_lr": 1e-7,
+    "gradient_accumulation_steps": 1,
+    "fold_num": 5,
+    "mix_prob": 1,
+    "T_0": 10,
+    "T_max": 10,
+    "seed": 2021,
+    "early_stop": 3
+    }
+    

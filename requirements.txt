@@ -1,0 +1,5 @@
+torch==1.8.0
+torchvision==0.9.0
+catalyst==20.12
+timm
+albumentations==0.5.2
