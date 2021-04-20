@@ -1,6 +1,7 @@
 from torch import nn
 import timm
 
+
 class MaskViT(nn.Module):
     def __init__(self, model_arch, n_classes, pretrained=False):
         super().__init__()
